@@ -1,0 +1,17 @@
+<HTML>
+	<HEAD>
+	<TITLE>Exemplo 18 - Formulário</TITLE>
+<script>
+function funcao(){
+formulario = document.MeuFormulario;
+alert("formulário submetido! texto:"+formulario.texto.value);
+}
+</script>
+	</HEAD>
+<BODY>
+<form onsubmit="funcao()" name="MeuFormulario">
+<input type="text" name="texto">
+<input type="submit" value="enviar"> 
+</form>
+</BODY>
+</HTML>

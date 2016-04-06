@@ -1,0 +1,36 @@
+<HTML>
+	<HEAD>
+<script>
+var Img1 = new Image();
+var Img2 = new Image();
+var Img3 = new Image();
+
+Img1.src="pichu4.gif";
+Img2.src="pikachu2.jpg";
+Img3.src="raichu004.gif";
+
+function mudaImagem(nome_imagem, caminho_arquivo)
+{
+  document[nome_imagem].src = caminho_arquivo;
+}
+
+</script>
+	<TITLE>Exemplo 22 - manipulando imagens</TITLE>
+	</HEAD>
+<BODY>
+
+<a href="http://www.google.com.br" target="_blank"
+onmouseover = "mudaImagem('botao','pikachu2.jpg');"
+onmouseout  = "mudaImagem('botao','pichu4.gif');"
+onclick     = "mudaImagem('botao','raichu004.gif');"
+>
+
+
+<img height="100" src="pichu4.gif" name="botao"><br>
+
+</a>
+
+
+
+</BODY>
+</HTML>

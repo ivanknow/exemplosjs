@@ -1,0 +1,23 @@
+<HTML>
+	<HEAD>
+<script>
+function preload(){
+var minhaImagem = new Image();
+minhaImagem.src="pichu4.gif";
+minhaImagem.src="pikachu2.jpg";
+minhaImagem.src="raichu004.gif";
+}
+</script>
+	<TITLE>Exemplo 22 - manipulando imagens</TITLE>
+	</HEAD>
+<BODY onLoad="preload()">
+<img height="100" src="pichu4.gif" name="imagem"><br>
+
+<a href="#" onmouseover="javascript:imagem.src='pichu4.gif'">Pichu</a>
+
+<a href="#" onmouseover="javascript:imagem.src='pikachu2.jpg'">Pikachu</a>
+
+<a href="#" onmouseover="javascript:imagem.src='raichu004.gif'">Raichu</a>
+
+</BODY>
+</HTML>
